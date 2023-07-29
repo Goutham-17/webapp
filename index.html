@@ -382,18 +382,18 @@
 
         <div class="row justify-content-center mt-4">
           <div class="col-8">
-              <form action="" method="post" class="row g-lg-3 gy-4" onsubmit="sebdEmail(event)">
+              <form action="" method="post" class="row g-lg-3 gy-4">
                 <div class="form-group col-sm-5" data-aos="fade-up" data-aos-delay="350">
-                  <input type="text" name="" id="exampleInputName" class="form-control" placeholder="Name" required>
+                  <input type="text" name="" id="" class="form-control" placeholder="Name" required>
                 </div>
                 <div class="form-group col-sm-7" data-aos="fade-up" data-aos-delay="350">
-                  <input type="email" name="" id="exampleInputEmail1" class="form-control" placeholder="Email" required>
+                  <input type="email" name="" id="" class="form-control" placeholder="Email" required>
                 </div>
                 <div class="form-group col-sm-12" data-aos="fade-up" data-aos-delay="400">
-                  <input type="text" name="" id="exampleFormControlSubject" class="form-control" placeholder="subject" required>
+                  <input type="text" name="" id="" class="form-control" placeholder="subject" required>
                 </div>
                 <div class="form-group col-sm-12" data-aos="fade-up" data-aos-delay="450">
-                  <textarea name="" id="exampleFormControlTextarea1" cols="58" rows="5" class="form-control" placeholder="Enter Your Message" required></textarea>
+                  <textarea name="" id="" cols="58" rows="5" class="form-control" placeholder="Enter Your Message" required></textarea>
                 </div>
                 <div class="form-group col-sm-12 d-grid" data-aos="fade-up" data-aos-delay="500">
                   <button class="btn btn-brand3" type="submit" id="btn">submit</button>
@@ -421,28 +421,7 @@
     <script src="js/bootstrap.bundle.min.js"></script> 
     <script src="js/aos.js"></script>
     <script src="js/index.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <script>
-      function sebdEmail(e) {
-            e.preventDefault();
-
-            Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "gouthamudemy17@gmail.com",
-                Password : "58E97E010D7DD21C1F5D434B277613817F3B",
-                To : 'gouthamkmurugan@gmail.com',
-                From : document.getElementById('exampleInputEmail1').value,
-                Name : document.getElementById('exampleInputName').value,
-                Subject : document.getElementById('exampleFormControlSubject').value,
-                Body : document.getElementById('exampleFormControlTextarea1').value
-            }).then(
-              message => alert(message)
-            );
-
-            return true;
-        }
-    </script>
 
 </body>
 </html>
