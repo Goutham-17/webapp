@@ -164,8 +164,11 @@ img{
     
     }
     .maintext{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         padding-bottom: 30px;
+    }
+    .maintext span{
+        font-size: 2rem;
     }
     .lead{
         font-size: medium;
