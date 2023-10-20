@@ -14,7 +14,7 @@ AOS.init({
 
 
 var typed = new Typed(".typing",{
-  strings:["Python Developer","Web Developer","Fresher","Computer Science Engineer"],
+  strings:["Python Developer","Web Developer","Back-end Developer","Fresher","Computer Science Engineer"],
   typeSpeed: 50,
   backSpeed: 60,
   loop: true
